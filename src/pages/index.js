@@ -1,3 +1,5 @@
+import React from "react"
+
 const Home = () => {
   return (
     <div className="p-4">
@@ -5,7 +7,7 @@ const Home = () => {
         Button
       </button>
     </div>
-  );
-};
+  )
+}
 
-export default Home;
+export default Home
