@@ -1,4 +1,4 @@
-import "../styles/index.css"
+import "styles/index.css"
 import React from "react"
 
 export default function ({ Component, pageProps }) {
