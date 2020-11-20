@@ -1,21 +1,27 @@
 {
   "name": "tailwind-nextjs",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "private": true,
+  "engines": {
+    "node": ">=12.13"
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start"
   },
   "dependencies": {
-    "next": "10.0.0",
+    "next": "10.0.2",
     "react": "17.0.1",
     "react-dom": "17.0.1",
-    "tailwindcss": "1.9.6"
+    "tailwindcss": "2.0.1"
   },
   "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "4.8.1",
+    "@typescript-eslint/parser": "4.8.1",
+    "autoprefixer": "10.0.2",
     "babel-eslint": "10.1.0",
-    "eslint": "7.12.1",
+    "eslint": "7.13.0",
     "eslint-config-prettier": "6.15.0",
     "eslint-config-react-app": "6.0.0",
     "eslint-plugin-flowtype": "5.2.0",
@@ -26,9 +32,11 @@
     "eslint-plugin-react-hooks": "4.2.0",
     "husky": "4.3.0",
     "lint-staged": "10.5.1",
+    "postcss": "8.1.8",
     "postcss-import": "13.0.0",
     "postcss-preset-env": "6.7.0",
-    "prettier": "2.1.2"
+    "prettier": "2.2.0",
+    "typescript": "4.1.2"
   },
   "husky": {
     "hooks": {

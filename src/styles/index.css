@@ -1,6 +1,6 @@
-/* purgecss start ignore */
 @import "tailwindcss/base";
+@import "./fontface.css";
+
 @import "tailwindcss/components";
-/* purgecss end ignore */
 
 @import "tailwindcss/utilities";
